@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:40:32.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.3" etag="HwNT0TVyv4XHHSsmA4Aw" type="github"><diagram id="rlpkovWgZjdhvSMS0D_O">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-09T01:52:03.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="poZuIT97oSTutP2fhafF" version="16.5.3" type="github">
+  <diagram id="rlpkovWgZjdhvSMS0D_O" name="第 1 页">
+    <mxGraphModel dx="1238" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-21" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 24px&quot;&gt;工作内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="205" y="749" width="470" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-22" value="&lt;font face=&quot;Courier New&quot;&gt;线程1&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-23" value="&lt;font face=&quot;Courier New&quot;&gt;线程2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="540" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-24" value="&lt;font face=&quot;Courier New&quot; size=&quot;3&quot;&gt;本地内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="205" y="961" width="470" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-25" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=24;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-26" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=24;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="590" y="679" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-27" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=24;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="260" y="889" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-28" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=24;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="420" y="891" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-29" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fontFamily=Courier New;fontSize=24;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="590" y="889" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-30" value="&lt;font color=&quot;#abb2bf&quot;&gt;1. int i = 0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1000" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-31" value="&lt;font color=&quot;#abb2bf&quot;&gt;2. i = i + 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-32" value="&lt;font color=&quot;#abb2bf&quot;&gt;3. i = i + 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-33" value="&lt;font color=&quot;#abb2bf&quot;&gt;4. i = 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-34" value="&lt;font color=&quot;#abb2bf&quot;&gt;6. i = 2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="810" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-35" value="&lt;font color=&quot;#abb2bf&quot;&gt;5. int i = 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1050" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-36" value="&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px&quot;&gt;当线程1通过store屏障时，会检查当前本地内存值V与给定值E是否相等，不相等则重试，相等才更新为C&lt;br&gt;，所以在两个线程竞争的情况下总会有一个线程先通过，保证了线程安全。&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="740" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1X7pfIc12Ll1S37cBz2o-37" value="&lt;font color=&quot;#abb2bf&quot;&gt;7. int i = 2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#D1EDF1;fontFamily=Courier New;fontSize=12;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#D1EDF1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1100" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
