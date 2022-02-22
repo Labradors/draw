@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T09:00:20.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.1" etag="mZOJzvYqJPdJ0FgGdVD1" type="github"><diagram id="t9Gg-78rM0HO7PrzTO6Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T09:11:56.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="cpxsfda0iFpsrlDxLI9U" version="16.6.1" type="github">
+  <diagram id="t9Gg-78rM0HO7PrzTO6Q" name="第 1 页">
+    <mxGraphModel dx="2062" dy="1113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="AKr5_P2UPkIjjqRBEs_a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="AKr5_P2UPkIjjqRBEs_a-1" target="AKr5_P2UPkIjjqRBEs_a-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=24;fontColor=#FFFFFF;" edge="1" parent="1" source="AKr5_P2UPkIjjqRBEs_a-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=10;fontColor=#FFFFFF;" edge="1" parent="1" source="AKr5_P2UPkIjjqRBEs_a-1" target="AKr5_P2UPkIjjqRBEs_a-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=10;fontColor=#FFFFFF;" edge="1" parent="1" source="AKr5_P2UPkIjjqRBEs_a-1" target="AKr5_P2UPkIjjqRBEs_a-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-1" value="&lt;pre&gt;&lt;span style=&quot;background-color: rgb(0 , 138 , 0)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 24px&quot;&gt;AliasRegistry&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=none;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-18" value="&lt;pre&gt;&lt;pre style=&quot;color: rgb(236 , 236 , 238)&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(130 , 170 , 255)&quot;&gt;registerAlias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: rgb(255 , 255 , 255)&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;alias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#3d8beb&quot; face=&quot;Courier New&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;规定一个名称,为其注册一个别名&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="70" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-21" value="&lt;pre&gt;&lt;pre style=&quot;color: rgb(236 , 236 , 238)&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(130 , 170 , 255)&quot;&gt;removeAlias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;alias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#3d8beb&quot; face=&quot;Courier New&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;移除给定别名&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-22" value="&lt;pre&gt;&lt;pre style=&quot;color: rgb(236 , 236 , 238)&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(130 , 170 , 255)&quot;&gt;removeAlias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;alias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#3d8beb&quot; face=&quot;Courier New&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;移除给定别名&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="295" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-23" value="&lt;pre&gt;&lt;pre style=&quot;color: rgb(236 , 236 , 238)&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(130 , 170 , 255)&quot;&gt;isAlias&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#3d8beb&quot; face=&quot;Courier New&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;判断指定名称是有有别名&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AKr5_P2UPkIjjqRBEs_a-25" value="&lt;pre&gt;&lt;pre style=&quot;color: rgb(236 , 236 , 238)&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 10px&quot;&gt;&lt;span style=&quot;color: rgb(130 , 170 , 255)&quot;&gt;getAliases&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: rgb(64 , 191 , 119)&quot;&gt;String &lt;/span&gt;&lt;span style=&quot;color: rgb(141 , 195 , 249)&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color: rgb(61 , 139 , 235)&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#3d8beb&quot; face=&quot;Courier New&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(218 , 232 , 252)&quot;&gt;返回给定名称的所有别名&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="550" width="330" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
