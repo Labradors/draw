@@ -1,0 +1,94 @@
+<mxfile host="65bd71144e">
+    <diagram id="FOJBmCKY0pZ3i25uz-xP" name="第 1 页">
+        <mxGraphModel dx="1167" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;span style=&quot;background-color: rgb(118 , 96 , 138)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px&quot;&gt;Closeable&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px&quot;&gt;自动释放资源&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
+                    <mxGeometry x="525" y="890" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;span style=&quot;background-color: rgb(118 , 96 , 138)&quot;&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px&quot;&gt;LifeCycle&lt;br&gt;&lt;/font&gt;&lt;font face=&quot;Courier New&quot; style=&quot;font-size: 14px&quot;&gt;定义启动停止生命周期&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="890" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="11" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;background-color: rgb(118 , 96 , 138)&quot;&gt;ApplicationContext&lt;/span&gt;&lt;span style=&quot;background-color: rgb(100 , 118 , 135)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;应用上下文中央接口&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="890" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="12" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="12" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;background-color: rgb(118 , 96 , 138)&quot;&gt;ConfigurableApplicationContext&lt;/span&gt;&lt;span style=&quot;background-color: rgb(100 , 118 , 135)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;配置应用上下文的接口&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="760" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;ResourceLoader&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;从classpath和file中加载资源&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="890" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="14" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(0 , 138 , 0)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;DefaultResourceLoader&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;默认资源加载器&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="760" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="15" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="15" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(0 , 138 , 0)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;AbstractApplicationContext&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;抽象的应用上下文封装&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="620" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="16" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="16" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(0 , 138 , 0)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;GenericApplicationContext&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;通用的应用上下文封装&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="480" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(100 , 118 , 135)&quot; color=&quot;#78ccf0&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;BeanDefinitionRegistry&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;获取BeanDefinition&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="620" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Courier New;fontSize=14;fontColor=#78CCF0;" edge="1" parent="1" source="18" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(0 , 138 , 0)&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;AnnotationConfigApplicationContext&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;实现注解注册功能&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+                    <mxGeometry x="264" y="310" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;pre&gt;&lt;font face=&quot;Courier New&quot; style=&quot;background-color: rgb(100 , 118 , 135)&quot; color=&quot;#78ccf0&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;BeanDefinitionRegistry&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;获取BeanDefinition&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="480" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#647687;fontFamily=Courier New;fontSize=14;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1100" width="650" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;HierarchicalBeanFactory&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;访问Bean容器的接口&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1150" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;ApplicationEventPublisher&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;发布ApplicationEvent的能力&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="1150" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;ListableBeanFactory&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;BeanFactory的拓展&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1260" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;EnvironmentCapable&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;公开环境配置能力Profile&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="1260" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;MessageSource&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;解析消息的策略接口&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="1380" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;p style=&quot;line-height: 0.3&quot;&gt;&lt;/p&gt;&lt;pre&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;ResourcePatternResolver&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#78ccf0&quot; face=&quot;Courier New&quot;&gt;&lt;span style=&quot;font-size: 14px ; background-color: rgb(100 , 118 , 135)&quot;&gt;解析classpath下的资源&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#000000;strokeColor=#647687;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="1380" width="220" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
